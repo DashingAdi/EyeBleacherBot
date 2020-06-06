@@ -31,8 +31,7 @@ def run(reddit, cr2):
 	with open('bleach.txt') as b:
 
 	    a = b.readlines()
-
-	    #msg = "\n^I ^am ^a ^bot "
+	    msg = "\n^beep ^boop! ^I ^am ^a ^bot. ^Please ^contact ^[u/cyanidesuppository](https://reddit.com/user/cyanidesuppository) ^with ^any ^issues."
 
 	    #rb = a[rn] + msg
 
@@ -40,7 +39,7 @@ def run(reddit, cr2):
 		if "!eyebleacherbot" in comment.body and comment.id not in cr2 and not comment.saved:
 			print("Bot called")
 			comment.save()
-			comment.reply(random.choice(a))
+			comment.reply(random.choice(a) + msg)
 			print("Bot replied")
 			list(cr2).append(comment.id)
 
