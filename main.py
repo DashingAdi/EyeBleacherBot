@@ -1,7 +1,7 @@
 import praw
 import bot
 
-comments_replied = bot.getReplies()
+cr = bot.getReplies()
 
 reddit = bot.authenticate()
 
