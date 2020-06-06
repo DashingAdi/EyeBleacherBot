@@ -1,5 +1,4 @@
-from random import randint as ri
-from rand import rb
+import random
 import config
 import praw
 import time
@@ -28,11 +27,20 @@ def getReplies():
 
 def run(reddit, cr2):
 
+
+	with open('bleach.txt') as b:
+
+	    a = b.readlines()
+
+	    #msg = "\n^I ^am ^a ^bot "
+
+	    #rb = a[rn] + msg
+
 	for comment in reddit.subreddit('testingground4bots').stream.comments(skip_existing=True):
 		if "!eyebleacherbot" in comment.body and comment.id not in cr2 and not comment.saved:
 			print("Bot called")
 			comment.save()
-			comment.reply(rb)
+			comment.reply(random.choice(a))
 			print("Bot replied")
 			list(cr2).append(comment.id)
 
