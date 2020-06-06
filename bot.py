@@ -31,7 +31,7 @@ def run(reddit, cr2):
 	with open('bleach.txt') as b:
 
 	    a = b.readlines()
-	    msg = "\n^beep ^boop! ^I ^am ^a ^bot. ^Please ^contact ^[u/cyanidesuppository](https://reddit.com/user/cyanidesuppository) ^with ^any ^issues."
+	    msg = "\n^beep ^boop! ^I ^am ^a ^bot! ^Please ^contact ^[u/cyanidesuppository](https://reddit.com/user/cyanidesuppository) ^with ^any ^issues ^or ^suggestions. ^[Github](https://github.com/getcake/EyeBleacherBot)"
 
 	    #rb = a[rn] + msg
 
