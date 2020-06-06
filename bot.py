@@ -35,7 +35,7 @@ def run(reddit, cr2):
 
 	    #rb = a[rn] + msg
 
-	for comment in reddit.subreddit('testingground4bots').stream.comments(skip_existing=True):
+	for comment in reddit.subreddit('all').stream.comments(skip_existing=True):
 		if "!eyebleacherbot" in comment.body and comment.id not in cr2 and not comment.saved:
 			print("Bot called")
 			comment.save()
