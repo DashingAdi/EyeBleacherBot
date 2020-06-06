@@ -22,8 +22,8 @@ def getReplies():
 		cr = (cr)
 		#cr2 = cr2.split("\n")
 		cr = cr.split("\n")
-		cr = filter(None, comments_replied)
-	return comments_replied
+		cr = filter(None, cr)
+	return cr
 
 
 def run(reddit, cr2):
