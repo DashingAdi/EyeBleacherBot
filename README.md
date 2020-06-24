@@ -7,5 +7,6 @@ A Reddit bot that responds with a link to some [eyebleach](https://www.urbandict
 [![License](https://poser.pugx.org/ali-irawan/xtra/license.svg)](https://poser.pugx.org/ali-irawan/xtra/license.svg)
 
 # Requires PRAW
-
+~~~
 pip3 install praw
+~~~
