@@ -3,8 +3,7 @@ A Reddit bot that responds with a link to some [eyebleach](https://www.urbandict
 
 ![Eyebleach](https://i.imgur.com/JvwRSB6.jpeg)
 
-[![Version](https://poser.pugx.org/balrok/web_video/version)](//packagist.org/packages/balrok/web_video)
-[![License](https://poser.pugx.org/ali-irawan/xtra/license.svg)](https://poser.pugx.org/ali-irawan/xtra/license.svg)
+[![License](https://poser.pugx.org/ali-irawan/xtra/license.svg)](https://github.com/getcake/EyeBleacherBot/blob/master/LICENSE)
 
 # Requires PRAW
 ~~~
