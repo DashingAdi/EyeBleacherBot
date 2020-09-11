@@ -1,10 +1,10 @@
 import praw
-import cartibot
+import bot
 import time
-reddit = cartibot.authenticate()
+reddit = bot.authenticate()
 while True:
         try:
-                cartibot.run(reddit)
+                bot.run(reddit)
         except Exception as e:
                 print(e)
                 continue
