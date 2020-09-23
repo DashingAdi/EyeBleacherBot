@@ -1,6 +1,6 @@
 import praw
 import bot
-import time
+
 reddit = bot.authenticate()
 while True:
         try:
